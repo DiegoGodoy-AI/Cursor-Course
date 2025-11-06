@@ -1,0 +1,21 @@
+{
+    "ai_commit_messages": {
+      "enabled": true,
+      "auto_generate": true,
+      "review_before_commit": true,
+  
+      "message_format": {
+        "style": "conventional_commits",
+        "include_scope": true,
+        "max_length": 72,
+        "include_body": true
+      },
+  
+      "analysis_depth": {
+        "understand_business_logic": true,
+        "detect_breaking_changes": true,
+        "identify_bug_fixes": true,
+        "categorize_refactoring": true
+      }
+    }
+  }
